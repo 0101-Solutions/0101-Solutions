@@ -1,0 +1,89 @@
+::placeholder, a, a:hover { color: inherit; }
+
+body { cursor: default; overflow-x: none; }
+body, button, input { font-family: 'Poppins', sans-serif; }
+body > section:not([id="landing"]) { background-color: white; }
+input { outline: none; border: none; }
+figure, p { margin: 0; }
+
+.nav-item .nav-link:hover {
+    background-color: white;
+    border-radius: 10px;
+    color: #292929 !important;
+    opacity: .7;
+}
+.navbar-toggler {
+    background-color: transparent !important; 
+    opacity: .8;
+    border-width: 1px !important;
+}
+.btn { padding: .2em 1.4em !important; }
+.bg-white { background-color: white !important; }
+.bg-fancy {
+    /* background by SVGBackgrounds.com */
+    background-color: #330055;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.85'%3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2339005e' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23400066' cx='50' cy='100' r='50'/%3E%3Cg fill='%2347006f' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%234e0077' cx='50' cy='200' r='50'/%3E%3Cg fill='%23550080' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235c0088' cx='50' cy='300' r='50'/%3E%3Cg fill='%23640091' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236c0099' cx='50' cy='400' r='50'/%3E%3Cg fill='%237400a2' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%237d00aa' cx='50' cy='500' r='50'/%3E%3Cg fill='%238500b3' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%238e00bb' cx='50' cy='600' r='50'/%3E%3Cg fill='%239700c4' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a000cc' cx='50' cy='700' r='50'/%3E%3Cg fill='%23aa00d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b400dd' cx='50' cy='800' r='50'/%3E%3Cg fill='%23be00e6' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c800ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d200f7' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+}
+.dimmed { background-color: rgba(255, 255, 255, .8); }
+.text-muted {
+    color: inherit !important;
+    opacity: .9;
+}
+.bg-img-default {
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.divider-sm {
+    width: 100px;
+    border-width: 6px;
+    border-color: inherit;
+}
+.shadow-2 {
+    position: relative;
+    box-shadow: 0 0 25px rgba(97, 97, 97, .52);
+}
+
+
+#landing {
+    background-image: linear-gradient(to right, rgba(184, 184, 184, .26), rgba(184, 184, 184, .44));
+}
+
+#landing video {
+    z-index: -100;
+    min-width: 100%;
+    transform: scale(.5) translate(-50%, -50%);
+    filter: blur(10px);
+}
+
+#new-font {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 2.5em;
+}
+
+#new-font-1 {
+    font-family: 'Bigelow Rules', cursive;
+    font-size: 5em;
+}
+
+#landing #content {
+    margin-top: 16vh;
+    padding-bottom: 20vh;
+}
+
+#landing button {
+    background-color: white;
+    color: #292929;
+    border: 2px solid white;
+}
+
+#landing button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+#our-team {
+    padding: 10vh 0 30vh;
+}
