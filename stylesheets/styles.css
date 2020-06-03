@@ -84,6 +84,22 @@ figure, p { margin: 0; }
     color: white;
 }
 
-#our-team {
-    padding: 10vh 0 30vh;
+#our-team { padding:  5.6rem 0; }
+
+#our-team img {
+    height: 370px;
+    object-fit: cover;
 }
+
+#our-team i { transition: opacity .2s; }
+#our-team i:hover { opacity: .2s; }
+
+#our-team .card > div {
+    background-color: rgba(30, 30, 30, .7);
+    transform: translateX(-100%);
+    transition: transform .35s;
+}
+
+#our-team .card:hover > div{ transform: translateX(0); }
+
+#info { background-color: #9624a0; }
