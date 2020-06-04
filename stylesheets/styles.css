@@ -103,3 +103,34 @@ figure, p { margin: 0; }
 #our-team .card:hover > div{ transform: translateX(0); }
 
 #info { background-color: #9624a0; }
+
+#info .col-md-4:nth-child(2) { transform: scale(1.1) }
+
+@media (max-width: 768px) { #info .col-md-4:nth-child(2) { transform: scale(1) } }
+
+#portfolio { padding: 100px 0; }
+
+#portfolio .port-item {
+    height: 200px;
+    position: relative;
+}
+
+#portfolio .port-item > * {
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+#portfolio .port-item::before {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 0;
+    transition: background-color .3s;
+}
+
+#portfolio .port-item:hover * { opacity: 1; }
+
+#portfolio .port-item:hover::before { background-color: rgba(39, 39, 39, .7); }
+
+@media (max-width: 992px) { #portfolio .port-item { height: 500px; } }
