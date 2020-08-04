@@ -1,0 +1,465 @@
+<%- include('partials/header') %>
+    <body>
+        <section id="landing" class="text-white">
+            <video class="position-fixed" autoplay muted loop>
+                <source src="/media/v.mp4" type="video/mp4">
+            </video>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark pt-4 px-0 bg-transparent align-items-start">
+                    <a href="#landing" id="new-font" class="navbar-brand font-weight-bold"><%= title %></a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        type="button" name="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse ml-auto flex-grow-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ml-4 active"><a href="#landing" class="nav-link px-2">Home</a></li>
+                            <li class="nav-item ml-4 dropdown">
+                                <a class="nav-link px-2" href="#" id="navbarDropdown" data-toggle="dropdown">About Us</a>
+                                <div class="dropdown-menu">
+                                    <a href="#our-team" class="dropdown-item">Our Team</a>
+                                    <a href="#pricing" class="dropdown-item">Get Started</a>
+                                </div>
+                            </li>
+                            <li class="nav-item ml-4"><a href="#contact" class="nav-link px-2">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                </nav>
+
+                <div class="row align-items-center" id="content">
+                    <div class="col-lg-6">
+                        <h1 id="new-font-1" class="font-weight-bold text-center text-dark text-lg-left">0101 Solutions</h1>
+                        <h2 class="h1 font-weight-bold text-white text-center text-lg-left">We came to change the game.</h2>
+                        <button class="btn btn-lg rounded-pill my-4 d-block mx-auto ml-lg-0" href="#our-team">Welcome Aboard!</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="font-weight-bold text-center text-lg-left">Welcome to<span id="new-font" class="font-weight-bold text-dark"> 0101 Solutions</span>
+                        </h3>
+                        <h4 class="font-weight-light text-center text-lg-left">Check out what services we offer:</h4>
+                        <div
+                            class="dimmed rounded text-dark mt-4 d-flex flex-column align-items-center align-items-lg-start">
+                            <div class="d-flex align-items-center">
+                                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                                <div class="my-3">
+                                    <h6 class="font-weight-bold mb-0">Enterprise Grade Web Apps.</h6>
+                                    <p>We build Enterprise Grade Apps after carefully listening and analyzing each of your business
+                                        needs. From Intelligent E-Commerce Systems, to health systems to blogs we got you
+                                        covered.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                                <div class="my-3">
+                                    <h6 class="font-weight-bold mb-0">24/7 Systems Maintenance and Upgrades.</h6>
+                                    <p>Upon a special agreement we are able to always debug your apps at any time, scale and
+                                        balance loads which effectively lower OpEx. Consider us for your next application's
+                                        build. We'd love to be a part of it.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                                <div class="my-3">
+                                    <h6 class="font-weight-bold mb-0">Beautiful Mobile Apps.</h6>
+                                    <p>We build and scale your mobile applications with latest technology ad we keep up with
+                                        the latest trends.</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                                <div class="my-3">
+                                    <h6 class="font-weight-bold mb-0">Financial Consulting.</h6>
+                                    <p>We offer you the best Financial Advise on how to improve your business once online.
+                                        We create intelligent systems to help you track your profits and losses accordingly.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                                <div class="my-3">
+                                    <h6 class="font-weight-bold mb-0">Clear & Precise Code Documentation.</h6>
+                                    <p>We document every code we write and make our code efficient readable and re-usable. We 
+                                        incorporate the latest and best market practices, and involve them in our day-to-day development.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas h4 fa-check-circle mx-3 text-success"></i>
+                                <div class="my-3">
+                                    <h6 class="font-weight-bold mb-0">Content Creation and Photography.</h6>
+                                    <p>With our inclusivity of diversity, we offer Photography and Video Shooting Services
+                                        for all occasions. Our Creative Minds are at work to ensure you get what you pay
+                                        for.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-team">
+            <div class="container">
+                <header>
+                    <h2 class="text-center font-weight-light" id="new-font-1"><u>Our Team</u></h2>
+                    <p class="text-center">"Behind every successful company, there's a dedicated team at work." <br>- Cyrus
+                        Gichuki.</p>
+                </header>
+
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-6 mt-3">
+                        <div class="card overflow-hidden">
+                            <img src="/media/p3.jpg" alt="Cyrus Gichuki" class="card-img">
+                            <div class="position-absolute text-center text-white w-100 h-100 py-2 d-flex flex-column justify-content-center">
+                                <p>Cyrus Gichuki</p>
+                                <em class="small">Software Engineer and CEO</em>
+                                <div class="pt-3">
+                                    <a href="mailto:cyrus_g@outlook.com"><i class="px-1 fas fa-envelope"></i></a>
+                                    <a href="https://github.com/Toxic254" target="_blank" rel="noopener noreferrer"><i class="px-1 fab fa-github"></i></a>
+                                    <a href="https://www.linkedin.com/in/cyrus-gichuki-308268190/" target="_blank" rel="noopener noreferrer"><i class="px-1 fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="py-5 text-white text-center bg-fancy">
+            <div class="container">
+                <h2 class="h1 mt-0 ">We love coming up with smart solutions.</h2>
+                <p class="lead text-uppercase text-muted">Onboard us on your next online venture.</p>
+                <hr class="divider-sm  my-3">
+                <div class="row text-success">
+                    <div class="col-md-4">
+                        <div class="icon rounded mt-3 py-5 bg-white">
+                            <i class="fas fa-code fa-3x mb-4"></i>
+                            <h3 class="h4 mb-2">Efficient Algorithms.</h3>
+                            <p class="text-muted mb-0">We develop businesslike algorithms, to help you bridge the gap in your business with technology.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon rounded mt-3 py-5 bg-white">
+                            <i class="fas fa-mobile-alt fa-3x mb-4"></i>
+                            <h3 class="h4 mb-2">Responsive Websites</h3>
+                            <p class="text-muted mb-0">In development we involve a Mobile-First approach. We aim for all software we build to be easily accessed at the comfort of your mobile phone.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon rounded mt-3 py-5 bg-white">
+                            <i class="fas fa-headset fa-3x mb-4"></i>
+                            <h3 class="h4 mb-2">24/7 Backup & Security.</h3>
+                            <p class="text-muted mb-0">We task ourselves by ensuring any software we provide to our clients is hack-proof and is always backed-up, just in case.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col-lg-3 col-6">
+                        <h6 class="h1 font-weight-bold">5+</h6>
+                        <p>Clients</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <h6 class="h1 font-weight-bold">5,000+</h6>
+                        <p>Lines Of Code Written</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <h6 class="h1 font-weight-bold">182+</h6>
+                        <p>Bugs Fixed</p>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <h6 class="h1 font-weight-bold">25+</h6>
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h3 class="font-weight-bold mb-0 text-center text-lg-left">Recent Projects.</h3>
+                <p class="lead text-center text-lg-left">Our aim is to create both beautiful and scalable applications and products for our clients.</p>
+                <div class="row">
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr1.jpg');">
+                            <h5 class="text-uppercase font-weight-bold text-white">NewsPaper Layout</h5><br>
+                            <p class="text-white">A vintage blog post cause we want your viewers to get the complete experience.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr2.png');">
+                            <h5 class="text-uppercase font-weight-bold text-white">Travel & Booking Sites.</h5><br>
+                            <p class="text-white">Book your next vacation from the comfort of your mobile phone.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr3.png');">
+                            <h5 class="text-uppercase font-weight-bold text-white">Real-Time Apps.</h5><br>
+                            <p class="text-white">A web app that shows current population in all countries.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr4.png');">
+                            <h5 class="text-uppercase font-weight-bold text-white">Goal Actualizr</h5><br>
+                            <p class="text-white">A planner that helps you get a job done and keeps track of tasks done.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr5.png');">
+                            <h5 class="text-uppercase font-weight-bold text-white">Entetainment Sites</h5><br>
+                            <p class="text-white">Helping local businesses get a share of marketing their services and products on the internet.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr6.png');">
+                            <h5 class="text-uppercase font-weight-bold text-white">E-Commerce Stores</h5><br>
+                            <p class="text-white">Guys with the sauce know they always shop at Drip Store. We even integrate local M-Pesa talk to us.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr7.png');">
+                            <h5 class="text-uppercase font-weight-bold text-white">Blog and News Sites.</h5><br>
+                            <p class="text-white">We assist in achieving a unique design with extra backend features. Talk to Us.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 overflow-hidden">
+                        <div class="port-item d-flex align-items-center ml-4 justify-content-center bg-img-default" style="background-image: url('/media/pr8.png');">
+                            <h5 class="text-uppercase font-weight-bold text-white">Portfolio Sites</h5><br>
+                            <p class="text-white">We'd like it if all businesses ventured in to the web as a platform, to showcase their products and services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="shadow-2">
+            <div class="container text-center">
+                <div class="mb-5">
+                    <h2 class="h1">Our Pricing Options:</h2>
+                    <p>If you have any questions regarding our packages, please refer to the F.A.Q. or contact our <u><a href="tel:+254736745458">Customer Support.</a></u></p>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <div class="card-header bg-fancy text-white font-weight-bold">
+                                <h4><u>Basic Package.</u></h4>
+                            </div>
+                            <div class="card-header bg-white py-4">
+                                <h3>
+                                    <sup>Ksh. </sup>From 10,999<small class="h6"></small>
+                                    <br>
+                                    <span class="badge mt-3 font-weight-normal badge-primary">Static Sites.</span>
+                                </h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group border-0">
+                                    <li class="list-group-item border-0">Beautiful UI/UX Designs and Layouts.</li>
+                                    <li class="list-group-item border-0">Free Domain (Yearly Subscription).</li>                            
+                                    <li class="list-group-item border-0">Mobile Responsiveness.</li>
+                                    <!-- <li class="list-group-item border-0">Basic Search Engine Optimization.</li>
+                                    <li class="list-group-item border-0">No Monthly Charges</li> -->
+                                    <li class="list-group-item border-0">24/7 Data Backup</li>
+                                    <li class="list-group-item border-0">Free SSL Certificate.</li>
+                                    <li class="list-group-item border-0"><strike>Office Hours Support</strike></li>
+                                    <li class="list-group-item border-0"><strike>Free Theme Updates*</strike></li>
+                                    <li class="list-group-item border-0"><strike>Free Security Updates.</strike></li>
+                                </ul>
+                            </div>
+                            <div class="card-footer pb-4 border-0 bg-white">
+                                <button class="btn btn-success btn-primary d-block mx-auto">
+                                    <a href="tel:+254736745458">Inquire</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <div class="card-header bg-fancy text-white font-weight-bold">
+                                <h4><u>E-Commerce Packages.</u></h4>
+                            </div>
+                            <div class="card-header bg-white py-4">
+                                <h3>
+                                    <sup>Ksh. </sup>From 60,999 <small class="h6">(monthly payments included.)</small>
+                                    <br>
+                                    <span class="badge mt-3 font-weight-normal badge-primary">Corporate Package.</span>
+                                </h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group border-0">
+                                    <!-- <li class="list-group-item border-0">Search Engine Optimization.</li> -->
+                                    <!-- <li class="list-group-item border-0">Mobile Responsiveness.</li> -->
+                                    <li class="list-group-item border-0">Round The Clock Support</li>
+                                    <li class="list-group-item border-0">GitHub Issues Forum.</li>
+                                    <li class="list-group-item border-0">24/7 Data Backup.</li>
+                                    <li class="list-group-item border-0">Mobile App (Upon Discussion).</li>
+                                    <li class="list-group-item border-0">Online Payments Integration.</li>
+                                    <li class="list-group-item border-0">Free SSL Certificate.</li>
+                                    <li class="list-group-item border-0">Free Domain.</li>
+                                    <li class="list-group-item border-0">Security Updates.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer pb-4 border-0 bg-white">
+                                <button class="btn btn-success btn-primary d-block mx-auto">
+                                    <a href="tel:+254736745458">Inquire</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="card">
+                            <div class="card-header bg-fancy text-white font-weight-bold">
+                                <h4><u>CMS Packages.</u></h4>
+                            </div>
+                            <div class="card-header bg-white py-4">
+                                <h3>
+                                    <sup>Ksh. </sup>From 40,999 <small class="h6">(monthly payments incl.)</small>
+                                    <br>
+                                    <span class="badge mt-3 font-weight-normal badge-primary">CMS Package.</span>
+                                </h3>
+                            </div>
+                            <div class="card-body">
+                                <ul class="list-group border-0">
+                                    <li class="list-group-item border-0">Search Engine Optimization.</li>
+                                    <li class="list-group-item border-0">Mobile Responsiveness.</li>
+                                    <li class="list-group-item border-0">Round The Clock Support</li>
+                                    <li class="list-group-item border-0">GitHub Issues Forum.</li>
+                                    <li class="list-group-item border-0">24/7 Data Backup.</li>
+                                    <!-- <li class="list-group-item border-0">Posts and Feed Updates.</li> -->
+                                    <li class="list-group-item border-0">Mobile App (Upon Discussion).</li>
+                                    <!-- <li class="list-group-item border-0">Email Content Subscription Integration.</li> -->
+                                    <li class="list-group-item border-0">Free Domain and SSL Certificate.</li>
+                                    <li class="list-group-item border-0">Security Updates.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer pb-4 border-0 bg-white">
+                                <button class="btn btn-success btn-primary d-block mx-auto">
+                                    <a href="tel:+254736745458">Inquire</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq">
+            <div class="container">
+                <div class="mb-3">
+                    <h3 class="text-dark font-weight-bold display-3">F.A.Q.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div id="accordion">
+                            <div class="card mt-2">
+                                <div class="card-header bg-white">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-1">Can you make my site work on IE and Safari?</button>
+                                    </h5>
+                                </div>
+                                
+                                <div id="q-1" class="collapse" data-parent="#accordion">
+                                    <div class="card-body text-success">
+                                        <p>Our lead engineers are hard at work to ensure that clients with an internet connection can acces your site. Yes we do include this in all our designs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-2">
+                                <div class="card-header bg-white">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-2">How much support is provided with the basic package?</button>
+                                    </h5>
+                                </div>
+                                
+                                <div id="q-2" class="collapse" data-parent="#accordion">
+                                    <div class="card-body text-success">
+                                        <p>While we do ensure that all our customers enjoy efficient and reliable algorithm design, we do not offer any form support related with the basic package.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-2">
+                                <div class="card-header bg-white">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-4">Am I free to modify your companies assets, (such as code)?</button>
+                                    </h5>
+                                </div>
+                                
+                                <div id="q-4" class="collapse" data-parent="#accordion">
+                                    <div class="card-body text-success">
+                                        <p>We, unless otherwise, DO NOT provide any code to our end clients because of company incentives. We provide Software as a service Solutions, we can negotiate otherwise but code ownership is solely 0101 Solutions Property.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-2">
+                                <div class="card-header bg-white">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-5">Can we initiate Online Payments such as Mpesa on my site?</button>
+                                    </h5>
+                                </div>
+                                
+                                <div id="q-5" class="collapse" data-parent="#accordion">
+                                    <div class="card-body text-success">
+                                        <p>Yes, we do. We take it home we integrate C2B, B2B and B2C Operations, and yes, with do this by conforming to the regulated standards, enabling a smooth transaction process for your clients.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-2">
+                                <div class="card-header bg-white">
+                                    <h5 class="mb-0 text-center">
+                                        <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-6">What are your thoughts on open source software?</button>
+                                    </h5>
+                                </div>
+                                
+                                <div id="q-6" class="collapse" data-parent="#accordion">
+                                    <div class="card-body text-success">
+                                        <p>We love Open-Source, this Company started as an open-source based institution but grew. In fact every month we work on an application for free for the people that helps tackle a specific challenge. Have your Checked out our GitHub?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mt-2">
+                            <div class="card-header bg-white">
+                                <h5 class="mb-0 text-center">
+                                    <button class="btn btn-link text-success" data-toggle="collapse" data-target="#q-7">What kind of applications does your company build?</button>
+                                </h5>
+                            </div>
+                            
+                            <div id="q-7" class="collapse" data-parent="#accordion">
+                                <div class="card-body text-success">
+                                    <p>As much as we love coding, we strive to help your business spearhead the industry and revolutionalizes the market with us (The Tech Guru's) by your side. We crack the Business Nut and let your enjoy the benefits.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="wow bounceInRight col-lg-3">
+                        <div class="card bg-transparent border-0 test-dark text-center ob-5 mt-4 mt-lg-0">
+                            <div class="card-body bg-transparent pt-4">
+                                <h3><u>Contact Us</u></h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 col-lg-12">
+                                    <div class="card-body mt-2">
+                                        <a href="tel:+254736745458"><i class="fas fa-2x fa-phone-volume mb-2"></i></a>
+                                        <p>Call Us</p>
+                                        <p>+254-736-745-458</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-lg-12">
+                                    <div class="card-body mt-2">
+                                        <a href="mailto:cyrus_g@outlook.com"><i class="fas fa-3x fa-envelope mb-3"></i></a>
+                                        <button class="btn btn-dark d-block mx-auto">Email</button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-lg-12">
+                                    <div class="card-body mt-2">
+                                        <a href="https://www.linkedin.com/in/cyrus-gichuki-308268190/" target="_blank" rel="noopener noreferrer"><i class="fab fa-3x fab fa-linkedin mb-3"></i></a>
+                                        <button class="btn btn-dark d-block mx-auto">Connect</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<%- include('partials/footer') %>
