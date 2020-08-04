@@ -18,6 +18,16 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Cookie SetUp
+app.set('trust proxy', 1);
+
+app.use(
+  cookieSession({
+    name: 'session',
+    keys: ['EDRFYbhevbfkjwFQ514523415263', 'FIUYFKKHYqagieuscj5644563qqabcfbg45635'],
+  }),
+);
+
 app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
