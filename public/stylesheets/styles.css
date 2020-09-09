@@ -1,5 +1,10 @@
 ::placeholder, a, a:hover { color: inherit; }
 
+.hide {
+    height: 0;
+    overflow: hidden;
+}
+
 body { cursor: default; overflow-x: none; }
 body, button, input { font-family: 'Poppins', sans-serif; }
 body > section:not([id="landing"]) { background-color: white; }
@@ -162,7 +167,7 @@ figure, p { margin: 0; }
 }
 
 
-#footer { padding: 4vw 0 0; }
+#footer { padding: 4vw 0 0; height: auto; }
 
 #footer #map {
     height: 450px;
@@ -170,6 +175,6 @@ figure, p { margin: 0; }
 
 #footer * { line-height: 180%; }
 
-#footer #footer-bottom { background-color: #64c65e; }
+#footer #footer-bottom { height: auto;background-color: #64c65e; }
 
 @media (max-width: 992px) { #footer #conatct { border: none !important; } }
